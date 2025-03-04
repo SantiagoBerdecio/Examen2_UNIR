@@ -1,0 +1,92 @@
+/* Importacion de fuente*/
+@font-face {
+    font-family: "Street";
+    src: url(/fonts/street.otf);
+}
+
+body{
+    text-align: center;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+}
+
+/* Tituto */
+h1{
+    font-family: "Street";
+    color: crimson;
+    font-size: 46px;
+}
+
+h2{
+    font-family: "Street";
+    color: crimson;
+    font-size: 28px;
+}
+
+/* table */
+.tablaStyle{
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    font-family: "Street";
+    margin: 0 auto;
+}
+
+.textoTabla{
+    font-size: 40px;
+    color: whitesmoke;
+    background-image: url(/img/fondocabecera.jpg);
+    opacity: 0.5;
+}
+
+td, tr{
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+}
+
+/* Formulario */
+.formStyle{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana;
+    margin: 0 auto;
+}
+
+legend{
+    font-family: "Street";
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+textarea{
+    width: 560px;
+}
+
+.formBotones{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: "Street";
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
