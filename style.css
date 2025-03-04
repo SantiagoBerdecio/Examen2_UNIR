@@ -1,7 +1,7 @@
 /* Importacion de fuente*/
 @font-face {
     font-family: "Street";
-    src: url(/fonts/street.otf);
+    src: url(fonts/street.otf);
 }
 
 body{
@@ -38,7 +38,7 @@ h2{
 .textoTabla{
     font-size: 40px;
     color: whitesmoke;
-    background-image: url(/img/fondocabecera.jpg);
+    background-image: url(img/fondocabecera.jpg);
     opacity: 0.5;
 }
 
